@@ -5,8 +5,8 @@ public class MyClass {
 
 /*===========================================[ STATIC VARIABLES ]===============*/
 
-    public static final String MESSAGE = "Hello world!";
     public static final String SUFFIX = " (c)";
+    public static final String MESSAGE = "Hello world!" + SUFFIX;
 
 /*===========================================[ INSTANCE VARIABLES ]=============*/
 
@@ -16,7 +16,7 @@ public class MyClass {
 
 
     public String getMessage() {
-        return MESSAGE + SUFFIX;
+        return MESSAGE;
     }
 
     public static void main(String[] args) {
