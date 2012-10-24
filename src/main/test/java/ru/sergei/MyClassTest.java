@@ -16,6 +16,6 @@ public class MyClassTest {
     @Test
     public void testgetLongMessage() throws Exception {
         MyClass c = new MyClass();
-        Assert.assertEquals(MyClass.LONG_MESSAGE, c.getLongMessage());
+        Assert.assertEquals(MyClass.LONG_MESSAGE + MyClass.SUFFIX, c.getLongMessage());
     }
 }

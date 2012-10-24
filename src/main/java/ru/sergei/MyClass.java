@@ -16,7 +16,7 @@ public class MyClass {
 /*===========================================[ CLASS METHODS ]==================*/
 
     public String getLongMessage(){
-        return LONG_MESSAGE;
+        return LONG_MESSAGE + SUFFIX;
     }
 
     public String getMessage() {
