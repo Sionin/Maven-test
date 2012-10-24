@@ -5,9 +5,9 @@ public class MyClass {
 
 /*===========================================[ STATIC VARIABLES ]===============*/
 
-    public static final String MESSAGE = "Hello world!";
-    public static final String LONG_MESSAGE = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
     public static final String SUFFIX = " (c)";
+    public static final String MESSAGE = "Hello world!" + SUFFIX;
+    public static final String LONG_MESSAGE = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." + SUFFIX;
 
 /*===========================================[ INSTANCE VARIABLES ]=============*/
 
@@ -16,7 +16,7 @@ public class MyClass {
 /*===========================================[ CLASS METHODS ]==================*/
 
     public String getLongMessage(){
-        return LONG_MESSAGE + SUFFIX;
+        return LONG_MESSAGE;
     }
 
     public String getMessage() {
