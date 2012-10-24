@@ -10,7 +10,7 @@ public class MyClassTest {
     @Test
     public void testMain() throws Exception {
         MyClass c = new MyClass();
-        Assert.assertEquals(MyClass.MESSAGE + MyClass.SUFFIX, c.getMessage());
+        Assert.assertEquals(MyClass.MESSAGE, c.getMessage());
     }
 
     @Test

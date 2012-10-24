@@ -20,7 +20,7 @@ public class MyClass {
     }
 
     public String getMessage() {
-        return MESSAGE + SUFFIX;
+        return MESSAGE;
     }
 
     public static void main(String[] args) {
