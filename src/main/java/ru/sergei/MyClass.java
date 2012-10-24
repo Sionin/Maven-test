@@ -6,7 +6,7 @@ public class MyClass {
 /*===========================================[ STATIC VARIABLES ]===============*/
 
     public static final String MESSAGE = "Hello world!";
-    public static final String SUFFIX = "(c)";
+    public static final String SUFFIX = " (c)";
 
 /*===========================================[ INSTANCE VARIABLES ]=============*/
 
