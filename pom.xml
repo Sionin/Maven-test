@@ -142,6 +142,6 @@
         <connection>scm:git:git@github.com:Sionin/Maven-test.git</connection>
         <url>scm:git:git@github.com:Sionin/Maven-test.git</url>
         <developerConnection>scm:git:git@github.com:Sionin/Maven-test.git</developerConnection>
-        <tag>develop</tag>
+        <tag>1.1.0</tag>
     </scm>
 </project>
