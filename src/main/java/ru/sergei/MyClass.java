@@ -7,6 +7,7 @@ public class MyClass {
 
     public static final String MESSAGE = "Hello world!";
     public static final String LONG_MESSAGE = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    public static final String SUFFIX = " (c)";
 
 /*===========================================[ INSTANCE VARIABLES ]=============*/
 
@@ -19,7 +20,7 @@ public class MyClass {
     }
 
     public String getMessage() {
-        return MESSAGE;
+        return MESSAGE + SUFFIX;
     }
 
     public static void main(String[] args) {
