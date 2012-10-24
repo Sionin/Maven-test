@@ -12,4 +12,10 @@ public class MyClassTest {
         MyClass c = new MyClass();
         Assert.assertEquals(MyClass.MESSAGE, c.getMessage());
     }
+
+    @Test
+    public void testgetLongMessage() throws Exception {
+        MyClass c = new MyClass();
+        Assert.assertEquals(MyClass.LONG_MESSAGE, c.getLongMessage());
+    }
 }
