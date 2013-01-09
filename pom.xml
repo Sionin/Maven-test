@@ -4,7 +4,7 @@
 
     <groupId>Maven-test</groupId>
     <artifactId>Maven-test</artifactId>
-    <version>1.1.12-SNAPSHOT</version>
+    <version>1.1.12</version>
 
     <properties>
         <changes.file>${basedir}/test.txt</changes.file>
@@ -29,8 +29,8 @@
                 <configuration>
                     <smtphost>localhost</smtphost>
                     <smtpport>25</smtpport>
-                    <smtpuser/>
-                    <smtppassword/>
+                    <smtpuser />
+                    <smtppassword />
                     <from>maven@localhost</from>
                     <recipients>
                         <recipient>Sergei.Ionin@zed.com</recipient>
@@ -171,6 +171,6 @@
         <connection>scm:git:git@github.com:Sionin/Maven-test.git</connection>
         <url>scm:git:git@github.com:Sionin/Maven-test.git</url>
         <developerConnection>scm:git:git@github.com:Sionin/Maven-test.git</developerConnection>
-        <tag>Maven-test-1.1.9</tag>
+        <tag>Maven-test-1.1.12</tag>
     </scm>
 </project>
