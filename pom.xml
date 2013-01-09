@@ -4,7 +4,7 @@
 
     <groupId>Maven-test</groupId>
     <artifactId>Maven-test</artifactId>
-    <version>1.1.9-SNAPSHOT</version>
+    <version>1.1.9</version>
 
     <properties>
         <changes.file>${basedir}/test.txt</changes.file>
@@ -166,7 +166,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <preparationGoals>mail:changes scm:checkin -Dmessage="Commit changes.txt for new version " -DworkingDirectory=${changes.file}</preparationGoals>
+                    <preparationGoals>mail:changes scm:checkin -Dmessage="Commit changes.txt for new version " -Dinclude=${changes.file}</preparationGoals>
                     <completionGoals>mail:mail</completionGoals>
                 <arguments />
                 <tagNameFormat>@{project.artifactId}-@{project.version}</tagNameFormat>
@@ -191,6 +191,6 @@
         <connection>scm:git:git@github.com:Sionin/Maven-test.git</connection>
         <url>scm:git:git@github.com:Sionin/Maven-test.git</url>
         <developerConnection>scm:git:git@github.com:Sionin/Maven-test.git</developerConnection>
-        <tag>Maven-test-1.1.4</tag>
+        <tag>Maven-test-1.1.9</tag>
     </scm>
 </project>
