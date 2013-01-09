@@ -26,38 +26,18 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>maven-mail-plugin</artifactId>
                 <version>1.0.1</version>
-                <!--<executions>-->
-                    <!--<execution>-->
-                        <!--<goals>-->
-                            <!--<goal>mail</goal>-->
-                        <!--</goals>-->
-                        <!--<phase>test</phase>-->
-                    <!--</execution>-->
-                <!--</executions>-->
                 <configuration>
                     <smtphost>localhost</smtphost>
                     <smtpport>25</smtpport>
-                    <smtpuser />
-                    <smtppassword />
+                    <smtpuser/>
+                    <smtppassword/>
                     <from>maven@localhost</from>
                     <recipients>
                         <recipient>Sergei.Ionin@zed.com</recipient>
                     </recipients>
-                    <!--<ccRecipients>-->
-                    <!--<ccRecipient>c@localhost</ccRecipient>-->
-                    <!--<ccRecipient>d@localhost</ccRecipient>-->
-                    <!--</ccRecipients>-->
-                    <!--<bccRecipients>-->
-                    <!--<bccRecipient>e@localhost</bccRecipient>-->
-                    <!--<bccRecipient>f@localhost</bccRecipient>-->
-                    <!--</bccRecipients>-->
-                    <subject>My title</subject>
+                    <title>${project.artifactId}-${project.version}</title>
                     <editCommand>notepad</editCommand>
-                    <textFile>${changes.file}</textFile>
-                    <body>${project.artifactId}-${project.version}</body>
-                    <attachments>
-                        <attachment>${basedir}/test.txt</attachment>
-                    </attachments>
+                    <changesFile>${changes.file}</changesFile>
                 </configuration>
             </plugin>
 
