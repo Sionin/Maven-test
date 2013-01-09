@@ -6,6 +6,10 @@
     <artifactId>Maven-test</artifactId>
     <version>1.1.9-SNAPSHOT</version>
 
+    <properties>
+        <changes.file>${basedir}/test.txt</changes.file>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -49,7 +53,7 @@
                     <!--</bccRecipients>-->
                     <subject>My title</subject>
                     <editCommand>notepad</editCommand>
-                    <textFile>${basedir}/test.txt</textFile>
+                    <textFile>${changes.file}</textFile>
                     <body>${project.artifactId}-${project.version}</body>
                     <attachments>
                         <attachment>${basedir}/test.txt</attachment>
@@ -162,7 +166,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <preparationGoals>mail:changes</preparationGoals>
+                    <preparationGoals>mail:changes scm:checkin -Dmessage="Commit changes.txt for new version " -DworkingDirectory=${changes.file}</preparationGoals>
                     <completionGoals>mail:mail</completionGoals>
                 <arguments />
                 <tagNameFormat>@{project.artifactId}-@{project.version}</tagNameFormat>
