@@ -4,7 +4,7 @@
 
     <groupId>Maven-test</groupId>
     <artifactId>Maven-test</artifactId>
-    <version>1.1.6-SNAPSHOT</version>
+    <version>1.1.6</version>
 
     <dependencies>
         <dependency>
@@ -33,7 +33,7 @@
                 <configuration>
                     <smtphost>localhost</smtphost>
                     <smtpport>25</smtpport>
-                    <smtpuser/>
+                    <smtpuser />
                     <smtppassword />
                     <from>maven@localhost</from>
                     <recipients>
@@ -186,6 +186,6 @@
         <connection>scm:git:git@github.com:Sionin/Maven-test.git</connection>
         <url>scm:git:git@github.com:Sionin/Maven-test.git</url>
         <developerConnection>scm:git:git@github.com:Sionin/Maven-test.git</developerConnection>
-        <tag>Maven-test-1.1.4</tag>
+        <tag>Maven-test-1.1.6</tag>
     </scm>
 </project>
