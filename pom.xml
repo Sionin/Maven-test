@@ -8,7 +8,7 @@
 
     <properties>
         <jira.project.key>QA</jira.project.key>
-        <changes.file>${basedir}/changes2.txt</changes.file>
+        <changes.file>changes2.txt</changes.file>
     </properties>
 
     <parent>
