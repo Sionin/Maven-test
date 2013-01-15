@@ -4,12 +4,16 @@
 [14.01.2013] - Sergei.Ionin
 
  [!] - new version of release plugin, jira support added
+ [!] - new version of release plugin, jira support added
+ [!] - new version of release plugin, jira support added
 
 ==========================================
  Maven-test-1.1.18
 ==========================================
 [11.01.2013] - Sergei.Ionin
 
+ [!] - new mail server
+ [!] - new mail server
  [!] - new mail server
 
 ==========================================
@@ -18,4 +22,6 @@
 [10.01.2013] - Sergei.Ionin
 
  [*] - fix pom tag
+ [!] - new mail server
+ [!] - new version of release plugin, jira support added
 
