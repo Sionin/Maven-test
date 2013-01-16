@@ -4,7 +4,7 @@
 
     <groupId>Maven-test</groupId>
     <artifactId>Maven-test</artifactId>
-    <version>1.1.26</version>
+    <version>1.1.27-SNAPSHOT</version>
 
     <properties>
         <jira.project.key>QA</jira.project.key>
@@ -32,6 +32,6 @@
         <connection>scm:git:git@github.com:Sionin/Maven-test.git</connection>
         <url>scm:git:git@github.com:Sionin/Maven-test.git</url>
         <developerConnection>scm:git:git@github.com:Sionin/Maven-test.git</developerConnection>
-        <tag>Maven-test-1.1.26</tag>
+        <tag>Maven-test-1.1.25</tag>
     </scm>
 </project>
