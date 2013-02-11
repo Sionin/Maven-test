@@ -1,4 +1,4 @@
 Maven-test
 ==========
 
-Rpo for test maven release
+Repo for test maven release
